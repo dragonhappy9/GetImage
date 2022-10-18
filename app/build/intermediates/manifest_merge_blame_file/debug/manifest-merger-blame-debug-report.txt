@@ -1,0 +1,159 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.MyPetNote"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->C:\Users\COM\Desktop\MyPetNote\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="32" />
+9-->C:\Users\COM\Desktop\MyPetNote\app\src\main\AndroidManifest.xml
+10
+11    <!-- 인터넷 권한 선언 -->
+12
+13    <uses-permission android:name="android.permission.INTERNET" />
+13-->C:\Users\COM\Desktop\MyPetNote\app\src\main\AndroidManifest.xml:7:5-66
+13-->C:\Users\COM\Desktop\MyPetNote\app\src\main\AndroidManifest.xml:7:22-64
+14
+15    <application
+15-->C:\Users\COM\Desktop\MyPetNote\app\src\main\AndroidManifest.xml:9:5-66:19
+16        android:allowBackup="true"
+16-->C:\Users\COM\Desktop\MyPetNote\app\src\main\AndroidManifest.xml:11:9-35
+17        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+17-->[androidx.core:core:1.8.0] C:\Users\COM\.gradle\caches\transforms-3\28a1708219c3158e49b329d141e5cfff\transformed\core-1.8.0\AndroidManifest.xml:24:18-86
+18        android:dataExtractionRules="@xml/data_extraction_rules"
+18-->C:\Users\COM\Desktop\MyPetNote\app\src\main\AndroidManifest.xml:12:9-65
+19        android:debuggable="true"
+20        android:fullBackupContent="@xml/backup_rules"
+20-->C:\Users\COM\Desktop\MyPetNote\app\src\main\AndroidManifest.xml:13:9-54
+21        android:icon="@mipmap/ic_launcher"
+21-->C:\Users\COM\Desktop\MyPetNote\app\src\main\AndroidManifest.xml:14:9-43
+22        android:label="@string/app_name"
+22-->C:\Users\COM\Desktop\MyPetNote\app\src\main\AndroidManifest.xml:15:9-41
+23        android:roundIcon="@mipmap/ic_launcher_round"
+23-->C:\Users\COM\Desktop\MyPetNote\app\src\main\AndroidManifest.xml:16:9-54
+24        android:supportsRtl="true"
+24-->C:\Users\COM\Desktop\MyPetNote\app\src\main\AndroidManifest.xml:17:9-35
+25        android:testOnly="true"
+26        android:theme="@style/Theme.MyPetNote"
+26-->C:\Users\COM\Desktop\MyPetNote\app\src\main\AndroidManifest.xml:18:9-47
+27        android:usesCleartextTraffic="true" >
+27-->C:\Users\COM\Desktop\MyPetNote\app\src\main\AndroidManifest.xml:10:9-44
+28        <activity
+28-->C:\Users\COM\Desktop\MyPetNote\app\src\main\AndroidManifest.xml:20:9-22:39
+29            android:name="com.example.MyPetNote.Memo.MainActivity"
+29-->C:\Users\COM\Desktop\MyPetNote\app\src\main\AndroidManifest.xml:21:13-67
+30            android:exported="false" />
+30-->C:\Users\COM\Desktop\MyPetNote\app\src\main\AndroidManifest.xml:22:13-37
+31        <activity
+31-->C:\Users\COM\Desktop\MyPetNote\app\src\main\AndroidManifest.xml:23:9-25:40
+32            android:name="com.example.MyPetNote.Memo.SaveMemoActivity"
+32-->C:\Users\COM\Desktop\MyPetNote\app\src\main\AndroidManifest.xml:24:13-71
+33            android:exported="false" />
+33-->C:\Users\COM\Desktop\MyPetNote\app\src\main\AndroidManifest.xml:25:13-37
+34        <activity
+34-->C:\Users\COM\Desktop\MyPetNote\app\src\main\AndroidManifest.xml:26:9-28:40
+35            android:name="com.example.MyPetNote.Memo.DetailActivity"
+35-->C:\Users\COM\Desktop\MyPetNote\app\src\main\AndroidManifest.xml:27:13-69
+36            android:exported="false" />
+36-->C:\Users\COM\Desktop\MyPetNote\app\src\main\AndroidManifest.xml:28:13-37
+37        <activity
+37-->C:\Users\COM\Desktop\MyPetNote\app\src\main\AndroidManifest.xml:29:9-32:20
+38            android:name="com.example.MyPetNote.MainFrameActivity"
+38-->C:\Users\COM\Desktop\MyPetNote\app\src\main\AndroidManifest.xml:30:13-67
+39            android:exported="true" >
+39-->C:\Users\COM\Desktop\MyPetNote\app\src\main\AndroidManifest.xml:31:13-36
+40        </activity>
+41        <activity
+41-->C:\Users\COM\Desktop\MyPetNote\app\src\main\AndroidManifest.xml:33:9-41:20
+42            android:name="com.example.MyPetNote.Login.LoginActivity"
+42-->C:\Users\COM\Desktop\MyPetNote\app\src\main\AndroidManifest.xml:34:13-69
+43            android:exported="true" >
+43-->C:\Users\COM\Desktop\MyPetNote\app\src\main\AndroidManifest.xml:35:13-36
+44            <intent-filter>
+44-->C:\Users\COM\Desktop\MyPetNote\app\src\main\AndroidManifest.xml:36:13-40:29
+45                <action android:name="android.intent.action.MAIN" />
+45-->C:\Users\COM\Desktop\MyPetNote\app\src\main\AndroidManifest.xml:37:17-69
+45-->C:\Users\COM\Desktop\MyPetNote\app\src\main\AndroidManifest.xml:37:25-66
+46
+47                <category android:name="android.intent.category.LAUNCHER" />
+47-->C:\Users\COM\Desktop\MyPetNote\app\src\main\AndroidManifest.xml:39:17-77
+47-->C:\Users\COM\Desktop\MyPetNote\app\src\main\AndroidManifest.xml:39:27-74
+48            </intent-filter>
+49        </activity>
+50        <activity
+50-->C:\Users\COM\Desktop\MyPetNote\app\src\main\AndroidManifest.xml:42:9-45:20
+51            android:name="com.example.MyPetNote.Login.RegisterActivity"
+51-->C:\Users\COM\Desktop\MyPetNote\app\src\main\AndroidManifest.xml:43:13-72
+52            android:exported="false" >
+52-->C:\Users\COM\Desktop\MyPetNote\app\src\main\AndroidManifest.xml:44:13-37
+53        </activity>
+54        <activity
+54-->C:\Users\COM\Desktop\MyPetNote\app\src\main\AndroidManifest.xml:46:9-49:20
+55            android:name="com.example.MyPetNote.Login.LoginInfo"
+55-->C:\Users\COM\Desktop\MyPetNote\app\src\main\AndroidManifest.xml:47:13-65
+56            android:exported="false" >
+56-->C:\Users\COM\Desktop\MyPetNote\app\src\main\AndroidManifest.xml:48:13-37
+57        </activity>
+58        <activity
+58-->C:\Users\COM\Desktop\MyPetNote\app\src\main\AndroidManifest.xml:50:9-54:20
+59            android:name="com.example.MyPetNote.Viewer.VideoViewer"
+59-->C:\Users\COM\Desktop\MyPetNote\app\src\main\AndroidManifest.xml:52:13-68
+60            android:exported="false"
+60-->C:\Users\COM\Desktop\MyPetNote\app\src\main\AndroidManifest.xml:53:13-37
+61            android:screenOrientation="landscape" >
+61-->C:\Users\COM\Desktop\MyPetNote\app\src\main\AndroidManifest.xml:51:13-50
+62        </activity>
+63        <activity
+63-->C:\Users\COM\Desktop\MyPetNote\app\src\main\AndroidManifest.xml:55:9-59:20
+64            android:name="com.example.MyPetNote.Viewer.VideoViewer2"
+64-->C:\Users\COM\Desktop\MyPetNote\app\src\main\AndroidManifest.xml:57:13-69
+65            android:exported="false"
+65-->C:\Users\COM\Desktop\MyPetNote\app\src\main\AndroidManifest.xml:58:13-37
+66            android:screenOrientation="landscape" >
+66-->C:\Users\COM\Desktop\MyPetNote\app\src\main\AndroidManifest.xml:56:13-50
+67        </activity>
+68        <activity
+68-->C:\Users\COM\Desktop\MyPetNote\app\src\main\AndroidManifest.xml:60:9-64:20
+69            android:name="com.example.MyPetNote.Viewer.VideoViewer3"
+69-->C:\Users\COM\Desktop\MyPetNote\app\src\main\AndroidManifest.xml:62:13-69
+70            android:exported="false"
+70-->C:\Users\COM\Desktop\MyPetNote\app\src\main\AndroidManifest.xml:63:13-37
+71            android:screenOrientation="landscape" >
+71-->C:\Users\COM\Desktop\MyPetNote\app\src\main\AndroidManifest.xml:61:13-50
+72        </activity>
+73
+74        <service
+74-->[androidx.room:room-runtime:2.4.3] C:\Users\COM\.gradle\caches\transforms-3\adadf4be2644064e313018a386a5a58e\transformed\room-runtime-2.4.3\AndroidManifest.xml:25:9-28:40
+75            android:name="androidx.room.MultiInstanceInvalidationService"
+75-->[androidx.room:room-runtime:2.4.3] C:\Users\COM\.gradle\caches\transforms-3\adadf4be2644064e313018a386a5a58e\transformed\room-runtime-2.4.3\AndroidManifest.xml:26:13-74
+76            android:directBootAware="true"
+76-->[androidx.room:room-runtime:2.4.3] C:\Users\COM\.gradle\caches\transforms-3\adadf4be2644064e313018a386a5a58e\transformed\room-runtime-2.4.3\AndroidManifest.xml:27:13-43
+77            android:exported="false" />
+77-->[androidx.room:room-runtime:2.4.3] C:\Users\COM\.gradle\caches\transforms-3\adadf4be2644064e313018a386a5a58e\transformed\room-runtime-2.4.3\AndroidManifest.xml:28:13-37
+78
+79        <provider
+79-->[androidx.emoji2:emoji2:1.2.0] C:\Users\COM\.gradle\caches\transforms-3\ec6e2ba61c9a42dd8e0aa44ee71f9dfb\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+80            android:name="androidx.startup.InitializationProvider"
+80-->[androidx.emoji2:emoji2:1.2.0] C:\Users\COM\.gradle\caches\transforms-3\ec6e2ba61c9a42dd8e0aa44ee71f9dfb\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+81            android:authorities="com.example.MyPetNote.androidx-startup"
+81-->[androidx.emoji2:emoji2:1.2.0] C:\Users\COM\.gradle\caches\transforms-3\ec6e2ba61c9a42dd8e0aa44ee71f9dfb\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+82            android:exported="false" >
+82-->[androidx.emoji2:emoji2:1.2.0] C:\Users\COM\.gradle\caches\transforms-3\ec6e2ba61c9a42dd8e0aa44ee71f9dfb\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+83            <meta-data
+83-->[androidx.emoji2:emoji2:1.2.0] C:\Users\COM\.gradle\caches\transforms-3\ec6e2ba61c9a42dd8e0aa44ee71f9dfb\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+84                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+84-->[androidx.emoji2:emoji2:1.2.0] C:\Users\COM\.gradle\caches\transforms-3\ec6e2ba61c9a42dd8e0aa44ee71f9dfb\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+85                android:value="androidx.startup" />
+85-->[androidx.emoji2:emoji2:1.2.0] C:\Users\COM\.gradle\caches\transforms-3\ec6e2ba61c9a42dd8e0aa44ee71f9dfb\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+86            <meta-data
+86-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\COM\.gradle\caches\transforms-3\371d4428813d11175307b9e72a350208\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+87                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+87-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\COM\.gradle\caches\transforms-3\371d4428813d11175307b9e72a350208\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+88                android:value="androidx.startup" />
+88-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\COM\.gradle\caches\transforms-3\371d4428813d11175307b9e72a350208\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+89        </provider>
+90    </application>
+91
+92</manifest>
